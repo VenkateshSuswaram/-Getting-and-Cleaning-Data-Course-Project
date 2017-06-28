@@ -4,7 +4,7 @@ A zip file containing the time window data training and test data and associated
 
 The script run_analysis.R generates two files: tidyData.txt & tidyData2.txt.
 
-In the table "tidyData.txt" only the summarization variables representing means and standard deviations were included. Specifically only the 79 variables containing the word "mean" or "std" in their names were included, with the exception of the "angle" variables which represented the angle between vectors instead of a mean or standard deviation. In the "HAR-timewindow.txt" table, each row corresponds to a single time window observation of a subject and an activity.
+In the table "tidyData.txt" only the summarization variables representing means and standard deviations were included. Specifically only the 79 variables containing the word "mean" or "std" in their names were included, with the exception of the "angle" variables which represented the angle between vectors instead of a mean or standard deviation. In the "tidyData.txt" table, each row corresponds to a single time window observation of a subject and an activity.
 
 In the table "tidyData2.txt", the data was further summarized by taking the mean of all the observations for each of the 79 variables per unique combination of subject and activity. 
 
