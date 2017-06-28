@@ -44,6 +44,6 @@ Data is saved in the name "tidyData.txt"
 * Use dcast to cast the melted data frame, summarizing each measure variable by the measurements in each subject and activity group.
 
 Data is saved in the name "tidyData2.txt" Contents can be viewed from the command  
-#### View(head(tidyData2),30) ####
+#### View(head(tidyData2,30),) #### - 30 rows
 
 ### END
