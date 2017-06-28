@@ -1,22 +1,21 @@
 # -Getting-and-Cleaning-Data-Course-Project
-# This README seeks to accomplish two goals:
+
+## This README seeks to accomplish two goals:
 
 * explain how the run_analysis.R script works.
 * facilitate evaluation of the Course Project.
 
-Explanation of the run_analysis.R Script
+## The run_analysis.R script aims to accomplish the following goals:
 
-# The run_analysis.R script aims to accomplish the following goals:
+* Merges the training and the test sets to create one data set.
+* Extracts only the measurements on the mean and standard deviation for each measurement.
+* Uses descriptive activity names to name the activities in the data set
+* Appropriately labels the data set with descriptive variable names.
+* From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement.
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive variable names.
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+#### Please see the run_analysis.R script for a detailed description of the implementation of each step used to accomplish the goals. Here is a high level description of the steps in the script used to accomplish each goal.
 
-Please see the run_analysis.R script for a detailed description of the implementation of each step used to accomplish the goals. Here is a high level description of the steps in the script used to accomplish each goal.
-
-Li To accomplish goal 1, the run_analysis.R script performs the following steps:
+### To accomplish goal 1, the run_analysis.R script performs the following steps:
 
 Before running the script copy the folder "UCI HAR Dataset" in R working directory.
 The script Reads in the X_test.txt X_train.txt and appends the data in to to data set X. Similarly the data set for Y & subject are comined to form a final data set.
